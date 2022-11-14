@@ -1,0 +1,26 @@
+{
+    "version": "0",
+    "id": "c0ff87f1-079b-d6a7-2e00-d6b78c5477ed",
+    "detail-type": "Tag Change on Resource",
+    "source": "aws.tag",
+    "account": "123",
+    "time": "2022-11-10T17:58:17Z",
+    "region": "ap-southeast-1",
+    "resources": [
+        "arn:aws:ec2:ap-southeast-1:123:volume/vol-07cd0f99776158520"
+    ],
+    "detail": {
+        "changed-tag-keys": [
+            "Name"
+        ],
+        "service": "ec2",
+        "resource-type": "volume",
+        "version-timestamp": "1668103097632",
+        "version": 5,
+        "tags": {
+            "Name": "122aewraewt",
+            "AWSBackup": "Test1",
+            "Name": "Test-Vol11231"
+        }
+    }
+}
